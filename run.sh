@@ -1,0 +1,1 @@
+docker compose run --rm --service-ports ollama -c "ollama serve & sleep 2 && exec bash"
